@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './dashboard-home.css',
 })
 export class DashboardHome {
+  constructor() {}
 
+  ngOnInit(): void {
+    console.log('Dashboard home component initialized');
+  }
 }
